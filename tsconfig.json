@@ -1,21 +1,24 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "declaration": true,
-      "noImplicitAny": false,
-      "removeComments": true,
-      "noLib": false,
+      "noEmit": true,
+      "strict": true,
       "jsx": "react",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "target": "es6",
-      "sourceMap": true,
-      "lib": [
-        "es6"
-      ]
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "removeComments": true,
+      "rootDir": "./",
+      "baseUrl": "./",
+      "paths": {
+        "@kryptand/*": ["packages/*/src"],
+        "*": ["node_modules", "packages"]
+      }
     },
-    "exclude": [
-      "node_modules",
-      "**/*.spec.ts"
-    ]
-}
+    "awesomeTypescriptLoaderOptions": {
+      "useBabel": true,
+      "babelCore": "@babel/core"
+    },
+    "include": ["packages"],
+    "exclude": ["node_modules", "packages/**/dist"]
+  }

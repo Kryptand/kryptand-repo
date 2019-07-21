@@ -1,5 +1,5 @@
 {
-  "name": "skeleton",
+  "name": "@kryptand/skeleton",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "KRYPTAND <goetze-a@outlook.com>",
@@ -18,12 +18,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@storybook/react": "^5.1.9",
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.8",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
     "react": "^16.8.6",
+    "styled-components": "^4.3.2",
     "typescript": "^3.5.3"
   }
 }

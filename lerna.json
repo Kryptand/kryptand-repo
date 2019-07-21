@@ -2,5 +2,13 @@
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "access": "private",
+      "npmClient": "yarn",
+      "allowBranch": ["master", "feature/*"]
+    }
+  },
   "version": "0.0.0"
 }
