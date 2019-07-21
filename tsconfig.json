@@ -5,6 +5,7 @@
       "noImplicitAny": false,
       "removeComments": true,
       "noLib": false,
+      "jsx": "react",
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "target": "es6",
