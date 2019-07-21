@@ -2,11 +2,22 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "lerna run tsc && lerna publish"
+    "build": "lerna run tsc",
+    "publish": "lerna run tsc && lerna publish",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "glob-loader": "^0.3.0",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
     "@types/node": "^12.6.8",
+    "babel-loader": "^8.0.6",
     "lerna": "^3.16.1",
     "typescript": "^3.5.3"
-  }
+  },
+  "dependencies": {}
 }
