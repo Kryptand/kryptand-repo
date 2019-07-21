@@ -1,11 +1,11 @@
 {
-  "name": "@kryptand/skeleton",
+  "name": "@kryptand/navigation",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "KRYPTAND <goetze-a@outlook.com>",
-  "homepage": "",
+  "homepage": "https://github.com/kryptand/kryptand-repo#readme",
   "license": "ISC",
-  "main": "lib/skeleton.js",
+  "main": "lib/navigation.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,6 +13,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryptand/kryptand-repo.git"
+  },
   "scripts": {
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -26,5 +30,8 @@
     "react": "^16.8.6",
     "styled-components": "^4.3.2",
     "typescript": "^3.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/kryptand/kryptand-repo/issues"
   }
 }

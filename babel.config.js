@@ -21,6 +21,7 @@ module.exports = (api) => {
         ],
         '@babel/preset-typescript',
       ],
+      "plugins": ["@babel/plugin-transform-modules-commonjs","babel-plugin-styled-components"],
       env: {
         build: {
           ignore: [
